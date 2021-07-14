@@ -168,6 +168,14 @@ header {
     font-size: 20px;
 }
 
+.i {
+    font-style: italic;
+}
+
+.l {
+    font-weight: lighter;
+}
+
 #Join {
     padding: 50px;
     text-align: center;

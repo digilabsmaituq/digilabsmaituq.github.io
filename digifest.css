@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Major+Mono+Display&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #d9e4dd;
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.3;
+}
+
+
+a {
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+li {
+    display: inline;
+}
+
+header {
+    background-color: #056674;
+    color: #f8f1f1;
+    margin-top: 50px;
+    padding: 50px;
+    font-size: 40px;
+    text-align: center;
+}

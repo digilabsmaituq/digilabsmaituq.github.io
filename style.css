@@ -63,6 +63,7 @@ header {
 
 .nav-logo {
     font-family: 'Major Mono Display', monospace;
+    color: #056674;
 }
 
 #About {
@@ -165,6 +166,11 @@ header {
     width: 180px;
     height: 180px;
     object-fit: cover;
+    transition: 0.2s;
+}
+
+.profile-pic:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .px {

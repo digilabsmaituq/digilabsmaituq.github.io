@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Major+Mono+Display&display=swap');
+@font-face {
+    font-family: 'Nico-Moji';
+    src:url('./fonts/nico-moji/Nico-Moji.ttf.woff') format('woff'),
+        url('./fonts/nico-moji/Nico-Moji.ttf.svg#Nico-Moji') format('svg'),
+        url('./fonts/nico-moji/Nico-Moji.ttf.eot'),
+        url('./fonts/nico-moji/Nico-Moji.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
 
 html {
     scroll-behavior: smooth;
@@ -189,6 +198,11 @@ header {
     padding: 50px;
     text-align: center;
     font-size: 30px;
+}
+
+.digifest {
+    font-family: 'Nico-Moji'; 
+    font-size: 40px;
 }
 
 .btn {

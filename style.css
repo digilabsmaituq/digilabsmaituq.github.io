@@ -214,7 +214,7 @@ header {
 
 .digifest {
     font-family: 'Nico-Moji'; 
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .btn {
@@ -224,6 +224,22 @@ header {
     color: white;
     border-radius: 30px;
     transition: 0.2s;
+    
+}
+
+.btn-digi {
+    font-size: 22px;
+    padding: 10px 22px 10px 22px;
+    background-color: white;
+    color: rgba(255,53,53,1);
+    border-radius: 30px;
+    transition: 0.2s;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 700;
+}
+
+.btn-digi:hover {
+    background-color: rgb(221, 221, 221);
 }
 
 .cnt {
@@ -309,6 +325,15 @@ footer {
         margin-right: 0;
         font-size: 20px;
         text-align: justify;
+    }
+
+    .s {
+        font-size: 18px;
+    }
+    
+    .digifest {
+        font-family: 'Nico-Moji'; 
+        font-size: 40px;
     }
 
 }
